@@ -1,6 +1,6 @@
 public class SwitchTest {
-    public static void main(){
-        int switchValue = 3;
+    public static void main(String [] args){
+        int switchValue = 5;
 
         switch(switchValue){
             case 1:
