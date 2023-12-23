@@ -15,7 +15,13 @@ public class Main {
 
         int ax = 8500;
         int score = 0;
-        score = calculateScore(ax);
+        boolean winner = true;
+        int bonus = 1000;
+        int levelCompleted = 5;
+
+        score = calculateScore(ax,levelCompleted, bonus, winner);
+
+        calculateScore(3000, 4, 2000, true);
 
         if( score < 5000){
             System.out.println("Score is under 5000");
@@ -28,12 +34,8 @@ public class Main {
         }
     }
 
-    public static int calculateScore(int score){
-        boolean winner = true;
-//        int score = 800;
-        int finalScore = score;
-        int levelCompleted = 5;
-        int bonus = 100;
+    public static int calculateScore( int finalScore, int levelCompleted, int bonus, boolean winner){
+
 
         if (winner){
             finalScore += (levelCompleted * bonus);
