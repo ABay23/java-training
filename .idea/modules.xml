@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/CalculateInterest/CalculateInterest.iml" filepath="$PROJECT_DIR$/CalculateInterest/CalculateInterest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes2/Classes2.iml" filepath="$PROJECT_DIR$/Classes2/Classes2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classses/Classses.iml" filepath="$PROJECT_DIR$/Classses/Classses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composition/Composition.iml" filepath="$PROJECT_DIR$/Composition/Composition.iml" />
       <module fileurl="file://$PROJECT_DIR$/ControlFlow/ControlFlow.iml" filepath="$PROJECT_DIR$/ControlFlow/ControlFlow.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/KeyWordsAndExpressions/KeyWordsAndExpressions.iml" filepath="$PROJECT_DIR$/KeyWordsAndExpressions/KeyWordsAndExpressions.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadingInputs/ReadingInputs.iml" filepath="$PROJECT_DIR$/ReadingInputs/ReadingInputs.iml" />
     </modules>

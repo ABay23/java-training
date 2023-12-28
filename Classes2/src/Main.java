@@ -11,7 +11,7 @@ public class Main {
         printHello();
 
         for (int i = 1; i <= 5; i ++){
-            Student s = new Student( "3434" + i,
+            LPAStudent s = new LPAStudent( "3434" + i,
                     switch(i){
                         case 1 -> "Miranda";
                         case 2 -> "Alejo";
