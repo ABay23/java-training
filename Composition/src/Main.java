@@ -5,8 +5,9 @@ public class Main {
         MotherBoard theMotherboard = new MotherBoard("2030","Asus", 4, 6, "Bi-call" );
         PersonalComputer thePC = new PersonalComputer("2208", "Dell", theCase, theMonitor, theMotherboard);
 
-        thePC.getMonitor().drawPixelAt(10,10, "red");
-        thePC.getMotherBoard().loadProgram("Windows OS");
-        thePC.getComputerCase().pressPowerButton();
+//        thePC.getMonitor().drawPixelAt(10,10, "red");
+//        thePC.getMotherBoard().loadProgram("Windows OS");
+//        thePC.getComputerCase().pressPowerButton();
+        thePC.powerUp();
     }
 }
