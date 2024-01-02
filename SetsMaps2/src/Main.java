@@ -1,5 +1,7 @@
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args){
@@ -7,6 +9,7 @@ public class Main {
         List<Contact> phones = ContactData.getData("phone");
         printData("Email List", emails);
         printData("Phone List", phones);
+        Set<Contact> emailContacts = new HashSet<>(emails);
 
     }
 
