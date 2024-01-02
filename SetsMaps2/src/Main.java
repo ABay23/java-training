@@ -10,6 +10,24 @@ public class Main {
         printData("Email List", emails);
         printData("Phone List", phones);
         Set<Contact> emailContacts = new HashSet<>(emails);
+        Set<Contact> phoneContacts = new HashSet<>(phones);
+        printData("Email List Hash:",emailContacts);
+        printData("Phone List Hash:", phoneContacts);
+
+        int index = emails.indexOf(new Contact("Robin Hood"));
+        Contact robinHood = emails.get(index);
+        robinHood.addEmail("Sherwood Forest");
+        robinHood.addEmail("Sherwood Forest");
+        System.out.println(robinHood);
+
+        Set<Contact> unionAB = new HashSet<>();
+        unionAB.addAll(emailContacts);
+        unionAB.addAll(phoneContacts);
+        printData("(A ∪ B) Union of emails (A) with phones (B)", unionAB);
+
+        Set<Contact> intersectAB = new HashSet<>(emailContacts);
+        intersectAB.retainAll(phoneContacts);
+        printData("(A ∩ B) Intersect emails (A) with phones (B)", intersectAB);
 
     }
 

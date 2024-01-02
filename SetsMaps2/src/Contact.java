@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class Contact {
@@ -35,6 +36,7 @@ public class Contact {
     public String toString() {
         return "%S: %s %s".formatted(name, emails, phones);
     }
+
     public Contact mergeContactData(Contact contact){
         Contact newContact = new Contact(name);
         newContact.emails = new HashSet<>(this.emails);
@@ -43,4 +45,30 @@ public class Contact {
         newContact.phones.addAll(contact.phones);
         return newContact;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Contact contact = (Contact) o;
+
+        return getName().equals(contact.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return 33 * getName().hashCode();
+    }
+
+   public void addEmail(String companyName){
+        String[] names = name.split(" ");
+        String email = "%c%s@%s.com".formatted(name.charAt(0), names[names.length -1],
+                companyName.replaceAll(" ", "").toLowerCase());
+        if(! emails.add(email)){
+            System.out.println(name + "already has email " + email);
+       } else {
+            System.out.println(name + " now has email " + email);
+        }
+   }
 }
