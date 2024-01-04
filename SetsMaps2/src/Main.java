@@ -43,13 +43,13 @@ public class Main {
         BMinusA.removeAll(emailContacts);
         printData("(B - A) phones (B) - emails (A)", BMinusA);
 
-        Set<Contact> symetricDiff = new HashSet<>(AMinusB);
-        symetricDiff.addAll(BMinusA);
-        printData("Symetric Difference: phones and emails", symetricDiff);
+        Set<Contact> symmetricDiff = new HashSet<>(AMinusB);
+        symmetricDiff.addAll(BMinusA);
+        printData("Symmetric Difference: phones and emails", symmetricDiff);
 
-        Set<Contact> symetricDiff2 = new HashSet<>(unionAB);
-        symetricDiff2.removeAll(intersectAB);
-        printData("Symetric Difference 2: phones and emails", symetricDiff2);
+        Set<Contact> symmetricDiff2 = new HashSet<>(unionAB);
+        symmetricDiff2.removeAll(intersectAB);
+        printData("Symetric Difference 2: phones and emails", symmetricDiff2);
 
     }
 
