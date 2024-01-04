@@ -9,6 +9,7 @@ public class Main {
         List<Contact> phones = ContactData.getData("phone");
         printData("Email List", emails);
         printData("Phone List", phones);
+
         Set<Contact> emailContacts = new HashSet<>(emails);
         Set<Contact> phoneContacts = new HashSet<>(phones);
         printData("Email List Hash:",emailContacts);
@@ -18,6 +19,7 @@ public class Main {
         Contact robinHood = emails.get(index);
         robinHood.addEmail("Sherwood Forest");
         robinHood.addEmail("Sherwood Forest");
+        robinHood.replaceEmailIfExists("RHood@caca.com", "RHood@poop.org");
         System.out.println(robinHood);
 
         Set<Contact> unionAB = new HashSet<>();
