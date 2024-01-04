@@ -31,6 +31,26 @@ public class Main {
         intersectAB.retainAll(phoneContacts);
         printData("(A ∩ B) Intersect emails (A) with phones (B)", intersectAB);
 
+        Set<Contact> intersectBA = new HashSet<>(phoneContacts);
+        intersectBA.retainAll(emailContacts);
+        printData("(B ∩ A) Intersect emails (B) with phones (A)", intersectBA);
+
+        Set<Contact> AMinusB = new HashSet<>(emailContacts);
+        AMinusB.removeAll(phoneContacts);
+        printData("(A - B) emails (A) - phones (B)", AMinusB);
+
+        Set<Contact> BMinusA = new HashSet<>(phoneContacts);
+        BMinusA.removeAll(emailContacts);
+        printData("(B - A) phones (B) - emails (A)", BMinusA);
+
+        Set<Contact> symetricDiff = new HashSet<>(AMinusB);
+        symetricDiff.addAll(BMinusA);
+        printData("Symetric Difference: phones and emails", symetricDiff);
+
+        Set<Contact> symetricDiff2 = new HashSet<>(unionAB);
+        symetricDiff2.removeAll(intersectAB);
+        printData("Symetric Difference 2: phones and emails", symetricDiff2);
+
     }
 
     public static void printData(String header, Collection<Contact> contacts){
