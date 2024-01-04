@@ -49,7 +49,7 @@ public class Main {
 
         Set<Contact> symmetricDiff2 = new HashSet<>(unionAB);
         symmetricDiff2.removeAll(intersectAB);
-        printData("Symetric Difference 2: phones and emails", symmetricDiff2);
+        printData("Symmetric Difference 2: phones and emails", symmetricDiff2);
 
     }
 
