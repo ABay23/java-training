@@ -44,5 +44,16 @@ public class MapMain {
             contacts.putIfAbsent(contact.getName(), contact);
             }
         contacts.forEach((k, v) -> System.out.println("key=" + k + " , value= " + v));
+
+        System.out.println("------------------------");
+        contacts.clear();
+
+        for (Contact contact : newData){
+            Contact duplicate = contacts.putIfAbsent(contact.getName(), contact);
+            if(duplicate != null){
+                contacts.put(contact.getName(), contact.mergeContactData(duplicate));
+            }
+        }
+        contacts.forEach((k, v) -> System.out.println("key=" + k + " , value= " + v));
     }
 }
