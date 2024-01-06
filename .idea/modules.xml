@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/KeyWordsAndExpressions/KeyWordsAndExpressions.iml" filepath="$PROJECT_DIR$/KeyWordsAndExpressions/KeyWordsAndExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LambdaExp/LambdaExp.iml" filepath="$PROJECT_DIR$/LambdaExp/LambdaExp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadingInputs/ReadingInputs.iml" filepath="$PROJECT_DIR$/ReadingInputs/ReadingInputs.iml" />
       <module fileurl="file://$PROJECT_DIR$/SetsMaps2/SetsMaps2.iml" filepath="$PROJECT_DIR$/SetsMaps2/SetsMaps2.iml" />
