@@ -43,6 +43,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.FirstClass.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MapMain.executor": "Run",
     "Application.treeSetMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
