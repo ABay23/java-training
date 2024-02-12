@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstraction/Abstraction.iml" filepath="$PROJECT_DIR$/Abstraction/Abstraction.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrays1/Arrays1.iml" filepath="$PROJECT_DIR$/Arrays1/Arrays1.iml" />
       <module fileurl="file://$PROJECT_DIR$/CalculateInterest/CalculateInterest.iml" filepath="$PROJECT_DIR$/CalculateInterest/CalculateInterest.iml" />
@@ -15,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/KeyWordsAndExpressions/KeyWordsAndExpressions.iml" filepath="$PROJECT_DIR$/KeyWordsAndExpressions/KeyWordsAndExpressions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda2/Lambda2.iml" filepath="$PROJECT_DIR$/Lambda2/Lambda2.iml" />
       <module fileurl="file://$PROJECT_DIR$/LambdaExp/LambdaExp.iml" filepath="$PROJECT_DIR$/LambdaExp/LambdaExp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LambdaTest/LambdaTest.iml" filepath="$PROJECT_DIR$/LambdaTest/LambdaTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadingInputs/ReadingInputs.iml" filepath="$PROJECT_DIR$/ReadingInputs/ReadingInputs.iml" />
       <module fileurl="file://$PROJECT_DIR$/SetsMaps2/SetsMaps2.iml" filepath="$PROJECT_DIR$/SetsMaps2/SetsMaps2.iml" />
