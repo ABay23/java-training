@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a5a92870-d2cf-4b54-bc15-abe64e0b8efd" name="Changes" comment="First Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abstraction/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abstraction/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abstraction/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abstraction/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +70,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Abstraction/src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstClass" />
@@ -101,7 +108,7 @@
       <workItem from="1704857984824" duration="2000" />
       <workItem from="1707712743125" duration="644000" />
       <workItem from="1707713734076" duration="823000" />
-      <workItem from="1707794945497" duration="449000" />
+      <workItem from="1707794945497" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
