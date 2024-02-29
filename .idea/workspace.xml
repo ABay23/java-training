@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a5a92870-d2cf-4b54-bc15-abe64e0b8efd" name="Changes" comment="First Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstraction/src/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abstraction/src/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abstraction/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abstraction/src/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Abstraction/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abstraction/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +112,7 @@
       <workItem from="1707712743125" duration="644000" />
       <workItem from="1707713734076" duration="823000" />
       <workItem from="1707794945497" duration="6601000" />
-      <workItem from="1709067847521" duration="2523000" />
+      <workItem from="1709067847521" duration="4319000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
