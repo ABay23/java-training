@@ -8,7 +8,7 @@ abstract class Mammal extends Animal{
     @Override
     public void move(String speed){
         System.out.println(getExplicitType() + " ");
-        System.out.println( speed.equals("slow") ? "walks" : "runs");
+        System.out.print( speed.equals("slow") ? "walks" : "runs");
     }
 
     public abstract void shedHair();

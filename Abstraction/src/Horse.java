@@ -6,7 +6,7 @@ public class Horse extends Mammal{
 
     @Override
     public void shedHair() {
-        System.out.println(getExplicitType() + "sheds un the spring");
+        System.out.println(getExplicitType() + "sheds in the spring");
 
     }
 
