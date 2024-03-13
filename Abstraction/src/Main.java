@@ -13,7 +13,7 @@ public class Main {
         animals.add(new Dog("German Sheppard", "big", 150));
         animals.add(new Fish("Goldfish", "small", 1));
         animals.add(new Fish("Barracuda", "big", 75));
-        animals.add(new Dog("Pug", "small", 20));
+//        animals.add(new Dog("Pug", "small", 20));
 
         animals.add(new Horse("Clydesdale", "large", 1000));
 
