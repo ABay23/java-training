@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a5a92870-d2cf-4b54-bc15-abe64e0b8efd" name="Changes" comment="First Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abstraction/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abstraction/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-203781b8" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
       </set>
     </attachedChunks>
   </component>
@@ -112,6 +113,10 @@
       <workItem from="1707794945497" duration="6601000" />
       <workItem from="1709067847521" duration="5752000" />
       <workItem from="1709344784405" duration="21000" />
+      <workItem from="1710301362550" duration="63000" />
+      <workItem from="1710301432140" duration="28000" />
+      <workItem from="1710301477744" duration="18000" />
+      <workItem from="1710553833655" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
